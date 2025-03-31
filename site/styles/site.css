@@ -4,6 +4,8 @@
 }
 main {
   background-color: rgb(77, 84, 124);
+  background-image: url("fundo.avif");
+  background-attachment: fixed;
 }
 body {
   height: 100vh;
@@ -14,7 +16,7 @@ body {
 header {
   padding-left: 20px;
   padding-right: 15px;
-  background-color: rgb(43, 41, 41);
+  background-color: rgb(19, 16, 16);
   .header-nav {
     display: flex;
     align-items: center;
@@ -79,9 +81,9 @@ section.sobre {
   }
 }
 section.banner {
-  background-color: rgba(70, 134, 219, 0.781);
-  .img {
-  }
+  background-color: rgb(219, 70, 70);
+  background-image: url("fundo.avif");
+  background-attachment: fixed;
 }
 section.historia {
   div.flex {
@@ -90,6 +92,8 @@ section.historia {
     justify-content: center;
     align-items: center;
     margin: 40px;
+    font-style: italic;
+  
   }
   div.col {
     width: 100%;
@@ -97,6 +101,8 @@ section.historia {
     text-align: center;
     font-family: arial;
     font-size: 16px;
+    border-radius: 2px;
+    border-color: ;
   }
   p.center {
     font-size: 1.3em;
