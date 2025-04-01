@@ -208,6 +208,8 @@ self.C3_JsPropNameTable = [
 	{PlanoDeFundoEmBlocos16: 0},
 	{Sprite125: 0},
 	{Sprite126: 0},
+	{PlanoDeFundoEmBlocos17: 0},
+	{play: 0},
 	{Vida: 0}
 ];
 
@@ -362,5 +364,7 @@ self.InstanceType = {
 	Sprite124: class extends self.ISpriteInstance {},
 	PlanoDeFundoEmBlocos16: class extends self.ITiledBackgroundInstance {},
 	Sprite125: class extends self.ISpriteInstance {},
-	Sprite126: class extends self.ISpriteInstance {}
+	Sprite126: class extends self.ISpriteInstance {},
+	PlanoDeFundoEmBlocos17: class extends self.ITiledBackgroundInstance {},
+	play: class extends self.ISpriteInstance {}
 }
