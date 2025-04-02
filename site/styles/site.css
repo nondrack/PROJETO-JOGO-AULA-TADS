@@ -8,10 +8,15 @@ main {
   background-attachment: fixed;
 }
 body {
-  height: 100vh;
+  height: 100px;
   background-color: rgb(255, 255, 255);
-  margin: 0%;
+  margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
+  footer{
+    margin: 0px;
+    text-align: center;
+    background-color: lightgray;
+  }
 }
 header {
   padding-left: 20px;
@@ -86,7 +91,7 @@ section.sobre {
     border-radius: 5px;
     text-decoration: none;
     justify-content: center;
-
+    margin-top: 30%;
     }
   
   
@@ -102,7 +107,7 @@ section.historia {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 40px;
+    margin: 0px;
     font-style: italic;
   
   }
@@ -113,7 +118,6 @@ section.historia {
     font-family: arial;
     font-size: 16px;
     border-radius: 2px;
-    border-color: ;
   }
   p.center {
     font-size: 1.3em;
@@ -125,10 +129,14 @@ section.historia {
     padding: 8px;
     border-radius: 8px;
     text-decoration: none;
+
+  }
+  .saibaMais{
+    margin-top: 200px;
   }
 }
-section.banner {
+/*section.banner {
     .img{
     
     }
-}
+}*/
