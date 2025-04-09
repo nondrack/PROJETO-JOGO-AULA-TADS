@@ -205,3 +205,38 @@ p {
         }
     }
 }
+
+.container-contato{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-container{
+    width: 500px;
+    height: 400px;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.field{
+    margin-top: 10px;
+}
+
+.btn-container {
+    display: flex;
+width: 100%;
+align-items: center;
+justify-content: center;
+margin-top: 20px;
+}
+
+input {
+    width: 100%;
+}
