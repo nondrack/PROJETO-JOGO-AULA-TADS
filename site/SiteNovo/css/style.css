@@ -49,7 +49,7 @@
 }
 
 .banner-mobile {
-    background: url(/images/4k-pc-8dxv1c1kpj1bsvde.jpg) no-repeat;
+    background: url(/images/vetor-de-desenhos-animados-do-litoral-norte-ilha-selvagem_1441-3159.avif) no-repeat;
     background-size: 100%;
     text-align: center;
     padding: 35px;
@@ -65,7 +65,7 @@
     a {
        z-index: 2;
        position:relative;
-       bottom: 50px;
+       bottom: 90px;
     }
 }
 
@@ -76,10 +76,12 @@
     text-decoration: none;
     transition: all 1s;
     text-align: center;
+    border-radius: 5px;
 }
 
 .btn:hover {
     background: linear-gradient(to left, red, rgv(92, 12, 12));
+    
 }
 
 .flex {
@@ -158,16 +160,18 @@ p {
 
                     a:hover {
                         color: white;
+                    }
+
+                    .a-nav:hover{
                         border-bottom: 5px solid red;
+
                     }
                 }
             }
         }
     }
 
-    .banner-mobile {
-        display: none;
-    }
+
 
     .banner-desktop {
         display: block;
@@ -207,8 +211,8 @@ p {
 }
 
 .container-contato{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: calc(100vh - 65px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -239,4 +243,6 @@ margin-top: 20px;
 
 input {
     width: 100%;
+    border-radius: 10px;
+    padding: 3px;
 }
