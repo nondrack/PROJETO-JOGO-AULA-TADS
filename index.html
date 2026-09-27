@@ -4,92 +4,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto game</title>
-    <link rel="stylesheet" href="styles/site.css">
-    <link rel="stylesheet" href="styles/reset.css">
+    <title>Loff Dog</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" href="images/Jump (7).png">
 </head>
 
 <body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" title="Home" class="header-logo">
+                <img src="images/Jump (7).png" alt="Loff dog">
+            </a>
 
-    <header>
-        <div class="header-nav">
-            <div class="logo">
-                <img src="Jump (7).png" alt="">
-            </div>
+            <a href="javascript:mostrarmenu()" title="Menu" class="header-menu">
+                <i class="fa-solid fa-bars"></i>
+            </a>
 
-            <nav>
-                <div class="navLink">
+
+            <nav class="header-nav">
+                <ul>
                     <li>
-                        <a class="bgHover" href="">Home</a>
-                    </li>
-                    <li>
-                        <a class="bgHover" href="">Sobre</a>
+                        <a class="a-nav" href="contato.html" title="Contato">Contato</a>
                     </li>
                     <li>
-                        <a class="bgHover" href="">Galeria de Fotos</a>
+                        <a class="a-nav" href="galeria.htm" title="Galeria">Galeria</a>
                     </li>
-                    <li class="jogar">
-                        <a href="Jogo Projeto/index.html" target="_blank">JOGAR</a>
+                    <li>
+                        <a class="a-nav" href="historia.html" title="História">Historia</a>
                     </li>
-                </div>
+                    <li>
+                        <a href="jogar.html" title="Jogar" class="btn">Jogar</a>
+                    </li>
+                </ul>
             </nav>
-        </div>
-        </header>
-        <section class="banner">
-            <div class="imagem">
-                <img src="Imagens/TATTOO (2).png" alt="jogo">
-            </div>
-          
-            
-            
-        </section>
 
-    <main>
+
         </div>
-        <section class="sobre">
-            <div class="container">
-                <h1>
-                    <span class="faixa center">Sobre O jogo Loff Dog</span>
-                </h1>
-                <p class="center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut recusandae dignissimos dolorem, qui animi laudantium
-                     suscipit eius sapiente tempore minus placeat repellat autem, alias eaque nam quos hic quisquam quibusdam?
+    </header>
+
+    <div class="banner-mobile">
+        <img src="images/TATTOO (2).png" alt="Loof Dog">
+        
+            <a href="jogar.html" title="Jogar Agora" class="btn">
+                Jogar Agora
+            </a>
+       
+    </div>
+
+    <div class="banner-desktop">
+        <div class="flex">
+
+
+            <div class="col">
+                <img src="images/daredevil_logo.png" alt="Demolidor">
+                <p>
+                    <a href="demolidor.html" title="Demolidor" class="btn">
+                        Assista Agora
+                    </a>
                 </p>
-                <button class="saibaMais">
-                    <a href="" class="btn" title="Saiba mais">Saiba mais</a>
-                </button>
             </div>
-        </section>
-        <section class="historia">
-            <div class="container">
+
+        </div>
+        <div class="col">
+
+        </div>
+    </div>
+    <section class="quadrinhos">
+        <div class="container">
+            <h2>Ultimos Quadrinhos</h2>
             <div class="flex">
-                <div class="img">
-                    <img src="Imagens/Design sem nome.png" alt="" class="img">
+                <div class="col">
+                    <img src="images/p1.jpg" alt="1">
+                    <p>
+                        <strong>Quadrinho 1</strong>
+                    </p>
+                    <p>
+                        <a href="quadrinhos.html" title="Ver Mais" class="btn">
+                            <i class="fas fa-search"></i>
+                            Ver Mais
+                        </a>
+                    </p>
                 </div>
                 <div class="col">
-                    <h1>
-                        <span class="faixa center">Um pouco mais da historia do jogo</span>
-                    </h1>
-                    <p class="center">
-                        O jogo começa com uma história diferente. Ricardo, cansado das ofensas e humilhações feitas por Rodrigo
-                        , cria um plano mirabolante e leva todos os games do Rodrigo para um mundo que ele criou, com os person
-                        agens dos Irmãos Piologo. Nesse mundo, Rodrigo deverá correr atrás do prejuízo, enfrentando os personagens
-                         que ele mesmo ajudou a criar para conseguir recuperar cada console.
+                    <img src="images/p2.jpg" alt="2">
+                    <p>
+                        <strong>Quadrinho 2</strong>
                     </p>
-                    <p class="center">
-                        <a href="" class="bnt" title="Jogar"> Jogar</a>
+                    <p>
+                        <a href="quadrinhos.html" title="Ver Mais" class="btn">
+                            <i class="fas fa-search"></i>
+                            Ver Mais
+                        </a>
+                    </p>
+                </div>
+                <div class="col">
+                    <img src="images/p3.jpg" alt="3">
+                    <p>
+                        <strong>Quadrinho 3</strong>
+                    </p>
+                    <p>
+                        <a href="quadrinhos.html" title="Ver Mais" class="btn">
+                            <i class="fas fa-search"></i>
+                            Ver Mais
+                        </a>
+                    </p>
+                </div>
+                <div class="col">
+                    <img src="images/p4.jpg" alt="4">
+                    <p>
+                        <strong>Quadrinho 4</strong>
+                    </p>
+                    <p>
+                        <a href="quadrinhos.html" title="Ver Mais" class="btn">
+                            <i class="fas fa-search"></i>
+                            Ver Mais
+                        </a>
                     </p>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="noticias">
+        <h2>Notícias</h2>
+        <div class="flex">
+            <div class="col">
+                <img src="images/b1.jpg" alt="1">
+                <p>
+                    <strong>Notícia 1</strong>
+                </p>
+                <p>
+                    <a href="noticia.html" title="Ler mais" class="btn">
+                        <i class="fas fa-search"></i>
+                        Ler Mais
+                    </a>
+                </p>
             </div>
-        </section>
-        
-
-
-    </main>
-<footer>
-    <h2>Suporte</h2>
-</footer>
+            <div class="col">
+                <img src="images/b2.jpg" alt="2">
+                <p>
+                    <strong>Notícia 2</strong>
+                </p>
+                <p>
+                    <a href="noticia.html" title="Ler mais" class="btn">
+                        <i class="fas fa-search"></i>
+                        Ler Mais
+                    </a>
+                </p>
+            </div>
+            <div class="col">
+                <img src="images/b3.jpg" alt="3">
+                <p>
+                    <strong>Notícia 3</strong>
+                </p>
+                <p>
+                    <a href="noticia.html" title="Ler mais" class="btn">
+                        <i class="fas fa-search"></i>
+                        Ler Mais
+                    </a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        function mostrarmenu() {
+            $(".header-nav").toggle();
+        }
+    </script>
 
 </body>
 
